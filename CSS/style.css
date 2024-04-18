@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-    background-color: gray;
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-image: 
@@ -24,7 +24,15 @@ body {
     background-color:whitesmoke;
 }
 
+.space {
+  flex-grow: 1; /* This will take all available space */
+  height: 50px; /* This sets a minimum height of the spacer */
+}
 
+body {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  min-height: 100vh; /* Minimum height to fill the viewport */
 
 
 
