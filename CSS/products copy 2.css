@@ -1,0 +1,16 @@
+.rightSide {
+    background: black;
+    color:white;
+}
+
+.bg {
+    background: black;
+}    
+
+.sneakers.jpg {
+    margin-right: -1rem;
+    margin-left: -1rem;
+    height: 250px;  
+    width: 250px;  
+    align-items: left;
+}
